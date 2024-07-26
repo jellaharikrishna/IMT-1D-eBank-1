@@ -1,0 +1,57 @@
+.home-container {
+  height: 100vh;
+  background-color: #152850;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.website-logo {
+  width: 80px;
+}
+
+.logout-btn {
+  height: 30px;
+  width: 80px;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: Roboto;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.home-content {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-main-heading {
+  text-align: center;
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+.digital-card-image {
+  width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    min-height: 450px;
+  }
+  .home-main-heading {
+  font-size: 40px;
+}
+  .digital-card-image {
+    width: 40%;
+  }
+}
