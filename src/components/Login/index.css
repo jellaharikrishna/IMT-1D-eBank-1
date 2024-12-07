@@ -80,6 +80,13 @@
   margin: 0;
 }
 
+.user-login-details {
+  font-family: Roboto;
+  font-size: 10px;
+  margin-bottom: 0;
+  color: #464746;
+}
+
 @media screen and (min-width: 768px) {
   .welcome-heading {
     font-size: 30px;

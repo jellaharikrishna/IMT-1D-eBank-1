@@ -98,7 +98,10 @@ class Login extends Component {
             <button className="login-btn" type="submit">
               Login
             </button>
-            <p className="login-error-msg">{isError && showErrorMsg}</p>
+            {isError && <p className="login-error-msg">{showErrorMsg}</p>}
+            <p className="user-login-details">
+              *User Credentials: User ID: 142420, PIN: 231225
+            </p>
           </form>
         </div>
       </div>
